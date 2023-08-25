@@ -23,7 +23,7 @@ jobs:
     services:
       mongodb:
         image: mongo
-        env: 
+        environment: 
           MONGODB_INITDB_ROOT_USERNAME: root
           MONGODB_INITDB_ROOT_PASSWORD: example
     steps:
