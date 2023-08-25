@@ -21,7 +21,7 @@ jobs:
       MONGODB_PASSWORD: example               # ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     services:
-      mongodb:
+      mongo:
         image: mongo
         environment: 
           MONGODB_INITDB_ROOT_USERNAME: root
